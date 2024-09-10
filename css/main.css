@@ -1,0 +1,561 @@
+@charset "utf-8";
+
+/* 1500px ~ */
+@media all and (min-width:1500px) {
+
+    h1 {
+        font-size: 2.8rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+        margin-bottom: 50px;
+    }
+
+    /*상단바*/
+    .nav {
+        position: fixed;
+        width: 100%;
+        height: 10vh;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1;
+        transition: 0.3s ease-in-out;
+        padding: 0 5%;
+        z-index: 2;
+        background-color: rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+    }
+
+    /*스크롤 시 nav*/
+    .navbar-effect {
+        background-color: rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        height: 7vh !important;
+        padding: 0 12%;
+    }
+
+    #about {
+        position: relative;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .header-img {
+        width: 400px;
+        margin-right: 5%;
+    }
+
+    .header-text-wrap {
+        display: flex;
+        width: 70%;
+        height: 70vh;
+        align-items: center;
+        justify-content: center;
+        margin: 100px auto 0;
+    }
+
+    .header-text {
+        width: 900px;
+    }
+
+    .header-text div {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .header-text div h3 {
+        font-size: 3.5rem;
+        margin-right: 5%;
+    }
+
+    .header-text div h4 {
+        font-size: 2.2rem;
+        background: linear-gradient(81deg, rgb(75, 78, 92) 0%, rgb(120, 122, 122) 62%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        font-family: 'JSArirang-Regular';
+    }
+
+    .header-text p {
+        font-size: 1.7rem;
+        line-height: 3.7rem;
+        margin-top: 50px;
+    }
+
+    .header-text2 {
+        width: 70%;
+        margin: 0 auto 150px;
+    }
+
+    .header-text2 div {
+        display: flex;
+    }
+
+    .header-text2 div h3 {
+        font-size: 1.7rem;
+        font-weight: 400;
+        width: 290px;
+    }
+
+    .header-text2 div p {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        margin-bottom: 30px;
+    }
+
+    /*images*/
+    .images-flex {
+        width: 70%;
+        margin: 0 auto 150px;
+    }
+
+    .images-flex div {
+        display: flex;
+    }
+
+    .images-flex div h3 {
+        font-size: 1.7rem;
+        font-weight: 400;
+        margin-bottom: 2%;
+    }
+
+    .images-flex div p {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        margin-bottom: 30px;
+    }
+
+    .images-box {
+        width: 70%;
+    }
+
+    .images-box2 {
+        width: 125%;
+    }
+
+    .images-box3 {
+        width: 135%;
+    }
+
+    .images-box4 {
+        width: 142%;
+    }
+
+    .images-box5 {
+        width: 60%;
+    }
+
+    .column {
+        flex-flow: column;
+        justify-content: center;
+        margin-left: 5%;
+    }
+
+    #link-btn {
+        color: #0081ff;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        border: none;
+        background: none;
+        display: inline-block;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    /*Publications*/
+    #publications {
+        position: relative;
+        width: 70%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    #publications .publications-flex {
+        display: flex;
+        align-items: center;
+    }
+
+    #publications .publications-flex div {
+        width: 25px;
+        margin-right: 10px;
+    }
+
+    #publications .publications-flex p {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        display: flex;
+    }
+
+    #publications .publications-flex p::before {
+        content: "";
+        margin: 0 16px;
+        background: rgba(0, 0, 0, 1);
+        height: 1px;
+        top: 20px;
+        position: relative;
+        width: 40px;
+    }
+
+    .Journal {
+        margin-top: 100px;
+    }
+
+    .Journal li {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        font-weight: 600;
+        list-style: inside;
+        margin-bottom: 50px;
+    }
+
+    .Journal-flex {
+        display: flex;
+        align-items: center;
+    }
+
+    .Journal-flex h4 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        width: 200px;
+    }
+
+    .Journal-flex p {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        margin-bottom: 30px;
+        font-weight: 400;
+    }
+
+    .w1 {
+        width: 100px !important;
+    }
+
+    .p1 {
+        width: 140px !important;
+    }
+
+    /*Last updated*/
+    .Lastupdated-p {
+        width: 95%;
+        font-size: 1.2rem;
+        text-align: right;
+        font-weight: 600;
+        margin-top: 200px;
+    }
+
+    /*contact*/
+    #contact {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        margin: 200px auto 0;
+        padding: 20% 0;
+        border-top: 5px solid #000;
+    }
+
+    #contact h3 {
+        text-align: center;
+        font-size: 6rem;
+    }
+
+    #contact p {
+        text-align: center;
+        font-size: 4rem;
+        margin-top: 100px;
+    }
+
+    #contact p a {
+        color: #000;
+        border-bottom: 5px solid #000;
+    }
+
+    .expected {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        display: flex;
+        float: right;
+        margin: 2% 0 5% 0;
+    }
+
+    .expected::before {
+        content: "";
+        margin: 0 16px;
+        background: rgba(0, 0, 0, 1);
+        height: 1px;
+        top: 20px;
+        position: relative;
+        width: 40px;
+    }
+
+}
+
+
+/* ~ 1499px */
+@media all and (max-width:1499px) {
+
+    #top-btn {
+        background-color: #99dff9;
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 5%;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        margin-bottom: 10%;
+    }
+
+    /*상단바*/
+    .nav {
+        position: fixed;
+        width: 100%;
+        height: 14vh;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: space-around;
+        z-index: 1;
+        transition: 0.3s ease-in-out;
+        padding: 5%;
+        z-index: 2;
+        background-color: rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+    }
+
+    .nav ul {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .nav ul li a {
+        font-size: 1.2rem !important;
+        margin-left: 0 !important;
+        padding: 0 !important;
+    }
+
+    /*스크롤 시 nav*/
+    .navbar-effect {
+        background-color: rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        padding: 5%;
+        height: 14vh;
+    }
+
+    #about {
+        position: relative;
+        width: 95%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .header-img {
+        width: 80%;
+        margin: 40% auto 0;
+    }
+
+    .header-text div h3 {
+        font-size: 2.7rem;
+        letter-spacing: 1px;
+        text-align: center;
+        margin-top: -3%;
+    }
+
+    .header-text div h4 {
+        text-align: center;
+        font-size: 1.7rem;
+        background: linear-gradient(81deg, rgb(75, 78, 92) 0%, rgb(120, 122, 122) 62%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        font-family: 'JSArirang-Regular';
+    }
+
+    .header-text p {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        width: 100%;
+        margin: 10% auto 20%;
+    }
+
+    .header-text2 {
+        width: 100%;
+        margin: 0 auto 20%;
+    }
+
+    .header-text2>div {
+        width: 100%;
+        margin-bottom: 15%;
+    }
+
+    .header-text2 div h3 {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .header-text2 div p {
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+        margin-top: 2%;
+    }
+
+    #link-btn {
+        color: #0081ff;
+        font-size: 1.2rem;
+        line-height: 2.2rem;
+        border: none;
+        background: none;
+        display: inline-block;
+        text-align: left;
+        text-decoration: underline;
+    }
+
+    /*Publications*/
+    #publications {
+        position: relative;
+        width: 95%;
+        margin: 0 auto 20%;
+    }
+
+    #publications .publications-flex {
+        display: flex;
+        align-items: center;
+    }
+
+    #publications .publications-flex div {
+        width: calc(50/720*100vw);
+        margin-right: 2%;
+    }
+
+    #publications .publications-flex p {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        display: flex;
+    }
+
+    #publications .publications-flex p::before {
+        content: "";
+        margin: 0 16px;
+        background: rgba(0, 0, 0, 1);
+        height: 1px;
+        top: 20px;
+        position: relative;
+        width: 40px;
+    }
+
+    .Journal {
+        margin-top: 10%;
+    }
+
+    .Journal li {
+        font-size: 1.7rem;
+        margin-bottom: 5%;
+        font-weight: 600;
+        margin-bottom: 5%;
+    }
+
+    .Journal-flex {}
+
+    .Journal-flex h4 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-right: 5%;
+    }
+
+    .Journal-flex p {
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+        margin-bottom: 5%;
+        font-weight: 400;
+    }
+
+
+    /*Last updated*/
+    .Lastupdated-p {
+        font-size: 1.2rem;
+        text-align: center;
+        font-weight: 600;
+        margin-top: 25%;
+    }
+
+    /*contact*/
+    #contact {
+        position: relative;
+        width: 95%;
+        height: 100vh;
+        margin: 30% auto 0;
+        border-top: 5px solid #000;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #contact h3 {
+        text-align: center;
+        font-size: 3.2rem;
+    }
+
+    #contact p {
+        text-align: center;
+        font-size: 2.5rem;
+        margin-top: 10%;
+    }
+
+    #contact p a {
+        color: #000;
+        border-bottom: 5px solid #000;
+    }
+
+    /*images*/
+    .images-box {
+        margin-bottom: 2%;
+    }
+
+    .column {
+        margin-bottom: 15%;
+    }
+
+    .column h3 {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .images-box2 {
+        margin-bottom: 2%;
+    }
+
+    .expected {
+        font-size: 1.2rem;
+        line-height: 2.5rem;
+        display: flex;
+        width: 100%;
+        float: right;
+        justify-content: flex-end;
+        margin-bottom: 15%;
+    }
+
+    .expected::before {
+        content: "";
+        margin: 0 16px;
+        background: rgba(0, 0, 0, 1);
+        height: 1px;
+        top: 20px;
+        position: relative;
+        width: 40px;
+    }
+
+
+}
