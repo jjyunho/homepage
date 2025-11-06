@@ -163,6 +163,10 @@
         width: 195%;
     }
 
+        .images-box8 {
+        width: 90%;
+    }
+
     .column {
         flex-flow: column;
         justify-content: center;
