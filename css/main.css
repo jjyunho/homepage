@@ -47,8 +47,9 @@
     }
 
     .header-img {
-        width: 400px;
+        width: 436px;
         margin-right: 5%;
+        margin-top:12%;
     }
 
     .header-text-wrap {
@@ -76,7 +77,7 @@
 
     .header-text div h4 {
         font-size: 2.2rem;
-        background: linear-gradient(81deg, rgb(75, 78, 92) 0%, rgb(120, 122, 122) 62%);
+        background: linear-gradient(166deg, rgb(255 0 0) 35%, rgb(17 28 207) 62%);
         background-clip: text;
         -webkit-background-clip: text;
         color: transparent;
@@ -378,7 +379,7 @@
     .header-text div h4 {
         text-align: center;
         font-size: 1.7rem;
-        background: linear-gradient(81deg, rgb(75, 78, 92) 0%, rgb(120, 122, 122) 62%);
+        background: linear-gradient(166deg, rgb(255 0 0) 35%, rgb(17 28 207) 62%);
         background-clip: text;
         -webkit-background-clip: text;
         color: transparent;
