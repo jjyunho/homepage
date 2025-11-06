@@ -155,6 +155,10 @@
         width: 225%;
     }
 
+        .images-box6 {
+        width: 240%;
+    }
+
     .column {
         flex-flow: column;
         justify-content: center;
