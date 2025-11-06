@@ -163,9 +163,14 @@
         width: 195%;
     }
 
-        .images-box8 {
+    .images-box8 {
         width: 90%;
     }
+
+    .images-box9 {
+        width: 212%;
+    }
+
 
     .column {
         flex-flow: column;
