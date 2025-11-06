@@ -155,14 +155,6 @@
         width: 60%;
     }
 
-        .images-box6 {
-        width: 96%;
-    }
-
-        .images-box7 {
-        width: 102%;
-    }
-
     .column {
         flex-flow: column;
         justify-content: center;
