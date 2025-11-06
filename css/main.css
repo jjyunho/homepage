@@ -577,5 +577,9 @@
         width: 40px;
     }
 
+        .images-box, .images-box2, .images-box3, .images-box4, .images-box5, .images-box6, .images-box7, .images-box8, .images-box9 {
+        margin-bottom:5%;
+    }
+
 
 }
