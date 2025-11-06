@@ -96,7 +96,7 @@
 
     .header-text2 div {
         display: flex;
-        width:100%;
+        width:auto;
     }
 
     .header-text2 div h3 {
