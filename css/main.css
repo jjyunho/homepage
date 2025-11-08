@@ -1,7 +1,7 @@
 @charset "utf-8";
 
-/* 1500px ~ */
-@media all and (min-width:1500px) {
+/* 900px ~ */
+@media all and (min-width:900px) {
 
     h1 {
         font-size: 2.8rem;
@@ -317,8 +317,8 @@
 }
 
 
-/* ~ 1499px */
-@media all and (max-width:1499px) {
+/* ~ 899px */
+@media all and (max-width:899px) {
 
     #top-btn {
         background-color: #99dff9;
